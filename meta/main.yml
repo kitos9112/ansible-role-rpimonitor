@@ -1,0 +1,27 @@
+---
+dependencies: []
+galaxy_info:
+  author: Marcos Soutullo
+  role_name: rpimonitor
+  description: Simple RPi-Monitor setup for Raspberry Pi
+  license: license (MIT)
+  min_ansible_version: 2.7
+  platforms:
+    - name: Debian
+      versions:
+        - stretch
+        - buster
+  galaxy_tags:
+    - system
+    - docker
+    - raspbian
+    - monitor
+    - stretch
+    - buster
+    - rpi-monitor
+    - rpimonitor
+    - arm
+    - raspberry
+    - pi
+    - raspberrypi
+ 
