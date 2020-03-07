@@ -8,7 +8,7 @@ RPi-Monitor allows serving real-time monitoring information (Uptime, CPU load, T
 
 Further documentation [here](https://xavierberger.github.io/RPi-Monitor-docs/index.html)
 
-`Data is served over plain-text (HTTP only) and there might be other unkown exploits given the age of this project (last update). Thus I would not recommend openning ports to access data through the internet without properly configuring a VPN tunnel for example.`
+Data is **served over plain-text (HTTP only)** and there might be other unkown Perl exploits given the age of this project. Thus I would not recommend openning ports widely to access data through the Internet without properly configuring a VPN tunnel, for example.
 
 ## Requirements
 
