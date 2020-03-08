@@ -18,7 +18,6 @@ galaxy_info:
     - monitor
     - stretch
     - buster
-    - rpi-monitor
     - rpimonitor
     - arm
     - raspberry
