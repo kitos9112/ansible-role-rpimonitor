@@ -1,6 +1,6 @@
 # Ansible Role: RPI-Monitor for Raspberry Pi/s
 
-[Travis-CI]
+[![Build Status](https://travis-ci.org/kitos9112/ansible-role-rpimonitor.svg?branch=master)](https://travis-ci.org/kitos9112/ansible-role-rpimonitor)
 
 This Ansible role aims at installing and configuring [RPi Monitor](https://github.com/XavierBerger/RPi-Monitor) utilising as development platform a Raspberry Pi 3B and 4B.
 
@@ -16,7 +16,7 @@ Data is **served over plain-text (HTTP only)** and there might be other unkown P
 - Linux Distribution:
   - Raspian Debian Family
 
-A reachable set of Raspberry Pi/s over SSH bootstrapped already (ready to run Ansible modules configured with **password-less sudo user**, e.g. `pi` user comes preconfigured this way by default)
+A reachable set of Raspberry Pi/s bootstrapped over SSH already (ready to run Ansible modules configured with **password-less sudo user**, e.g. `pi` user comes preconfigured this way by default)
 
 ## Role Variables
 
