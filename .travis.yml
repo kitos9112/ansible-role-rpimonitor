@@ -19,10 +19,13 @@ install:
   - pip install --upgrade pip poetry
   - poetry install -v
 
+before_script:
+  - poetry config settings.virtualenvs.in-project true
+
 script:
   - pwd
   - echo "Executing CI for $ROLE_NAME"
-  - molecule test
+  - poetry run molecule test
 
 notifications:
   webhooks: https://galaxy.ansible.com/api/v1/notifications/

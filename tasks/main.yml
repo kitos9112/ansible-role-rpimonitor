@@ -31,8 +31,7 @@
   apt:
     update_cache: yes
     name: rpimonitor
-    state: latest
-  notify: 
+  notify:
     - Update rpi-monitor
     - Install auto-package update
 

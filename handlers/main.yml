@@ -2,10 +2,10 @@
 # handlers file for kitos9112.rpimonitor
 - name: Update rpi-monitor
   become: yes
-  shell:
+  command:
     cmd: /etc/init.d/rpimonitor update
 
 - name: Install auto-package update
   become: yes
-  shell:
+  command:
     cmd: /etc/init.d/rpimonitor install_auto_package_status_update
