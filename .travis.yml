@@ -21,7 +21,6 @@ install:
 
 script:
   - pwd
-  - poetry shell
   - echo "Executing CI for $ROLE_NAME"
   - molecule test
 
